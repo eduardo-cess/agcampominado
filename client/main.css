@@ -1,0 +1,66 @@
+/* CSS declarations go here */
+	body
+		{
+		font-family	: sans-serif;
+		text-align	: center;
+		}
+
+		/*-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;*/
+
+	table
+		{
+			-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		margin		: auto;
+		background-color: #aaa;
+		border-collapse	: separate;
+		border-spacing	: 0px;
+		}
+	td
+		{
+		width		: 44px; 
+		line-height	: 44px;
+		border		: 2px outset gray;
+		text-align	: center;
+		
+		/* manha de "esconder" o texto */
+		background-color: #999;
+		color		: #999;
+		}
+	td.clicked
+		{
+		background-color: #ddd;
+		color		: black;
+		font-size	: 25px;
+		border		: 2px solid #ccc;
+		}
+	p
+		{
+		font-size	: small;
+		text-align	: justify;
+		}
+	#browsers
+		{
+		position	: fixed;
+		bottom		: 0;
+		left		: 0;
+		width		: 100%;
+		padding-top	: 10px;
+		padding-bottom	: 15px;
+		background-color: #ffd;
+		border-top	: 1px solid silver;
+		text-align	: center;
+		font-weight	: bold;
+		}
+	.browserok  { color	: #0c0; }
+	.browseraok { color	: #f60; }
+	.browsernok { color	: #f00; }
