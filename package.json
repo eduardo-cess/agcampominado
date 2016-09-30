@@ -1,10 +1,15 @@
 {
-  "name": "campoMinado",
-  "private": true,
+  "name": "campominado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "meteor run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "eu",
+  "license": "ISC",
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "mathjs": "^3.5.3",
+    "underscore": "^1.8.3"
   }
 }
