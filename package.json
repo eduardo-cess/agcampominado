@@ -1,0 +1,15 @@
+{
+  "name": "campominado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eu",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^3.5.3",
+    "underscore": "^1.8.3"
+  }
+}
